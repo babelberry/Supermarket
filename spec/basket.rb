@@ -1,16 +1,24 @@
 class Basket
 
 	def initialize
-		@basket = []
+		@items = []
 	end
 
 	def has_items?
-		@basket.count > 0
+		@items.count > 0
 	end
 
 
 	def accept(item)
-		@basket << item
+		@items << item
+	end
+
+	def items
+		@items
+	end
+
+	def total
+		@items.inject(0) {|total, item| total + item.total }
 	end
 
 end
