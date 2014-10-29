@@ -1,7 +1,5 @@
 class Checkout 
 
-
-
 	def initialize(basket)
 		@basket = basket
 	end
