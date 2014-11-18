@@ -3,7 +3,7 @@ Supermarket
 
 ## What it is?
 
-A simple Ruby programme modelling a Supermarket till, allowing to calculate the total amount due by a client, given the items he wants to purchase.
+A simple Ruby programme modelling a Supermarket till, allowing to calculate the total amount due by a client, given the items he wants to purchase. Built during week 2 of Makers Academy.
 
 Classes used were:
 - the basket
@@ -14,26 +14,9 @@ Classes used were:
 
 ## How was it written?
 
-- Used CRC cards to come up with the classes
+- OOD - Used CRC cards to come up with the classes
 - TDDed using Rspec
 - Ruby
 
-## Job List
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-
-## Favourite Code Snippet
-
-~~~
- TODO: paste code here
-~~~
-
-
-## Takeaway
-
-TODO: Enter a personal reflection and/or things you learnt
-
-![Visual](http://ENTER_URL)
+![Visual](https://github.com/binaryberry/Supermarket/blob/master/Supermarket.jpg)
