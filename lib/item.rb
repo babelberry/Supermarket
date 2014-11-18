@@ -1,3 +1,4 @@
+# Item corresponds to each individual item that can be bought in the supermarket
 class Item
 	attr_reader :price
 	attr_reader :promotional_code

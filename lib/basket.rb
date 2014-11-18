@@ -1,3 +1,4 @@
+# This encompasses all the items selected by the client, that will be passed on to the Checkout
 class Basket
 
 	def initialize

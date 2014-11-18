@@ -1,3 +1,5 @@
+# Item corresponds to each type of item that can be bought in the supermarket
+
 class LineItem
 	attr_reader :item, :quantity
 

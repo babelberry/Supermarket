@@ -1,3 +1,4 @@
+# Checkout is the class that calculates the total price of the basket, and gives the output of the whole programme
 class Checkout 
 
 	def initialize(basket)
@@ -10,7 +11,7 @@ class Checkout
 
 	def total
 		@basket.items.inject(0) do |total, line_item|
-				total + apply_promotion_on(line_item)
+			total + apply_promotion_on(line_item)
 		end
 	end
 
